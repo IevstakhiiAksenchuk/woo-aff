@@ -1,0 +1,62 @@
+#form_submit_button:disabled {
+  cursor: not-allowed;
+}
+
+#password_strength,
+#myplugin_password_strength {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9em;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.password-strength-very-weak {
+  background-color: #ffcccc;
+  /* Light Red for very weak */
+}
+
+.password-strength-weak {
+  background-color: #ff6a6a;
+  /* Red for weak */
+}
+
+.password-strength-moderate {
+  background-color: #ffae42;
+  /* Orange for moderate */
+}
+
+.password-strength-strong {
+  background-color: #9acd32;
+  /* Yellow-Green for strong */
+}
+
+.password-strength-very-strong {
+  background-color: #008000;
+  /* Green for very strong */
+}
+
+.pass-hint {
+  font-size: 12px;
+  line-height: 20px;
+  color: #999;
+}
+
+.emagicone-success p {
+  margin: 0;
+  padding: 5px;
+}
+.emagicone-success a {
+  color: #3c763d;
+  font-weight: bold;
+}
+.emagicone-success {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+}

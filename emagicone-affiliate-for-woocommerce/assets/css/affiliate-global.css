@@ -1,0 +1,49 @@
+#affiliate_signup_form label {
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+#affiliate_signup_form input:not([type=submit]) {
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	-webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+	transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+	-o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+#form_submit_button {
+	margin: 0 auto;
+	display: block;
+	line-height: 1.5;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	border-color: #000000;
+	background: #000000;
+	color: #fff;
+	border-radius: .25rem;
+	border: 1px solid transparent;
+	padding: .5rem 1.25rem;
+}
+#generatedLink a {
+    max-width: 100%;
+    display: block;
+    word-wrap: break-word;
+}
+/*
+.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--affiliate a::before {
+	content: '';
+	display: inline-block;
+	width: 16px;  
+	height: 16px; 
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.431 8.2 1.193-5.934 5.779 1.402 8.174L12 18.897l-7.335 3.867 1.402-8.174-5.934-5.779 8.2-1.193z" fill="currentColor"/></svg>');
+	margin-right: 5px;
+}*/

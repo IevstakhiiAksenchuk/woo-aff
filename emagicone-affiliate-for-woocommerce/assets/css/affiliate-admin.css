@@ -1,0 +1,51 @@
+.emagicone-affiliate-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.emagicone-affiliate-table th,
+.emagicone-affiliate-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.emagicone-affiliate-table tr:hover {
+  background-color: #f5f5f5;
+}
+.emagicone-affiliate-table th {
+  background-color: #f1f1f1;
+  color: black;
+}
+.emagicone-affiliate-actions {
+  white-space: nowrap;
+}
+.emagicone-affiliate-actions a.button {
+  margin-right: 10px;
+}
+.emagicone-form-wrap {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid #ccd0d4;
+  margin-top: 20px;
+}
+.emagicone-form-wrap h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.emagicone-form-wrap .form-table th {
+  width: 20%;
+  padding: 10px;
+  text-align: right;
+  vertical-align: middle;
+}
+.emagicone-form-wrap .form-table td {
+  padding: 10px;
+}
+.emagicone-form-wrap .form-table .regular-text {
+  width: 100%;
+}
+.emagicone-back-button {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

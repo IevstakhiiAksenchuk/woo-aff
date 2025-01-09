@@ -1,0 +1,323 @@
+/* Base layout and structure */
+.emagicone-affiliate-dashboard {
+	position: relative;
+        margin-bottom: 20px;
+}
+
+.emagicone-affiliate-dashboard .tab {
+	background-color: #fff;
+	margin-bottom: -1px;
+	overflow: hidden;
+}
+
+.emagicone-affiliate-dashboard .tabcontent {
+	background: #F8F8F8;
+	border: 1px solid #E6E7ED;
+	display: none;
+	padding: 30px 30px 0 30px;
+}
+
+/* Navigation and tabs */
+.woocommerce-MyAccount-navigation {
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	flex: 0 0 200px;
+	padding: 15px;
+}
+
+.woocommerce-MyAccount-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.woocommerce-MyAccount-navigation-link {
+	margin-bottom: 10px;
+}
+
+.woocommerce-MyAccount-navigation-link a {
+	background-color: #e9e9e9;
+	border-radius: 3px;
+	color: #333;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.woocommerce-MyAccount-navigation-link a:hover {
+	background-color: #d4d4d4;
+}
+
+.woocommerce-MyAccount-navigation-link.is-active a {
+	background-color: #0073aa;
+	color: white;
+}
+
+/* Buttons and links within tab */
+.emagicone-affiliate-dashboard .tab button,
+.emagicone-affiliate-dashboard .tab a {
+	background-color: inherit;
+	border: none;
+	cursor: pointer;
+	float: left;
+	font-size: 17px;
+	outline: none;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+
+.emagicone-affiliate-dashboard .tab a {
+	color: #000000;
+	float: right;
+	margin-bottom: 1px;
+}
+
+.emagicone-affiliate-dashboard .tab button:hover {
+	background-color: #ddd;
+}
+
+.emagicone-affiliate-dashboard .tab button.active {
+	background-color: #F8F8F8;
+	border: 1px solid #E6E7ED;
+	border-bottom: 0;
+	color: #2F80ED;
+}
+
+/* Tab content and elements */
+.emagicone-affiliate-dashboard .tabcontent h4 {
+	margin-bottom: 20px;
+}
+
+.emagicone-affiliate-dashboard #Transactions p {
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+.emagicone-affiliate-dashboard #payoutRequestForm p{
+    margin-bottom: 0px;
+}
+
+.emagicone-affiliate-dashboard .payments-wrap {
+	background: #E6E7ED;
+	margin: 0 -30px;
+	padding: 30px;
+}
+
+/* Product and transactions styling */
+.emagicone-affiliate-dashboard .affiliate-product {
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.emagicone-affiliate-dashboard .affiliate-product-image img {
+	height: 50px;
+	object-fit: cover;
+	width: 50px;
+}
+
+.emagicone-affiliate-dashboard .affiliate-product-title a {
+	color: #000000;
+}
+
+.emagicone-affiliate-dashboard .affiliate-product-price bdi {
+	font-size: 15px;
+	line-height: 26px;
+}
+
+.emagicone-affiliate-dashboard .affiliate-product-price del {
+	color: #828282;
+	padding-right: 10px;
+}
+
+.emagicone-affiliate-dashboard .affiliate-product-price ins {
+	text-decoration-line: none;
+}
+
+/* Tables and data grids */
+.emagicone-affiliate-dashboard .affiliate-products-table,
+.emagicone-affiliate-dashboard .data-grid,
+.emagicone-affiliate-dashboard .transactions-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.emagicone-affiliate-dashboard .affiliate-products-table th,
+.emagicone-affiliate-dashboard .affiliate-products-table td,
+.emagicone-affiliate-dashboard .data-grid th,
+.emagicone-affiliate-dashboard .data-grid td,
+.emagicone-affiliate-dashboard .transactions-table th,
+.emagicone-affiliate-dashboard .transactions-table td,
+.emagicone-affiliate-dashboard #Statistics th {
+	padding: 8px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.emagicone-affiliate-dashboard .affiliate-products-table th,
+.emagicone-affiliate-dashboard .transactions-table th,
+.emagicone-affiliate-dashboard #Statistics th {
+	color: #2F80ED;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.emagicone-affiliate-dashboard .transactions-table td {
+	font-size: 15px;
+}
+
+/* Buttons and forms */
+.emagicone-affiliate-dashboard .affiliate-product-link button,
+.emagicone-affiliate-dashboard #affiliateLinkForm button,
+.emagicone-affiliate-dashboard #cancelPayoutBtn,
+.emagicone-affiliate-dashboard #requestPayoutBtn {
+	border-radius: 30px;
+	color: #2F80ED;
+	cursor: pointer;
+	padding: 12px 50px;
+}
+
+.emagicone-affiliate-dashboard .affiliate-product-link button,
+.emagicone-affiliate-dashboard #affiliateLinkForm button {
+	background: none;
+	border: 1px solid #2F80ED;
+	min-width: 160px;
+}
+
+.emagicone-affiliate-dashboard #affiliateLinkForm button {
+	background: linear-gradient(#2D3BBD, #2AD6FE);
+	color: #fff;
+	width: 240px;
+}
+
+.emagicone-affiliate-dashboard #savePaypalEmail {
+	border-radius: 30px;
+	color: white;
+	cursor: pointer;
+	padding: 12px 25px; /* Adjusted padding for better fit with smaller button text */
+	background: linear-gradient(#2D3BBD, #2AD6FE);
+}
+
+.emagicone-affiliate-dashboard #affiliateLinkForm input{
+	width: 100%;
+}
+
+.emagicone-affiliate-dashboard #requestPayoutBtn {
+	background: linear-gradient(#2D3BBD, #2AD6FE);
+	color: white;
+}
+
+.emagicone-affiliate-dashboard #requestPayoutBtn:hover,
+.emagicone-affiliate-dashboard #cancelPayoutBtn:hover {
+	background-color: #45a049;
+}
+
+.emagicone-affiliate-dashboard #cancelPayoutBtn {
+	background: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+	color: white;
+}
+
+/* Modal popup styling */
+.emagicone-affiliate-dashboard .modal {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: none;
+	height: 100%;
+	left: 0;
+	overflow: auto;
+	padding-top: 80px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.emagicone-affiliate-dashboard .modal-content {
+	background-color: #fefefe;
+	border: 1px solid #888;
+	margin: 5% auto;
+	padding: 20px;
+	width: 60%;
+}
+
+.emagicone-affiliate-dashboard .close {
+	color: #aaa;
+	cursor: pointer;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.emagicone-affiliate-dashboard .close:hover,
+.emagicone-affiliate-dashboard .close:focus {
+	color: black;
+	text-decoration: none;
+}
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 600px) {
+	.emagicone-affiliate-dashboard .affiliate-products-table,
+	.emagicone-affiliate-dashboard .affiliate-products-table thead {
+		border: 0;
+		display: none;
+	}
+
+	.emagicone-affiliate-dashboard .affiliate-products-table tr {
+		border-bottom: 2px solid #ddd;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.emagicone-affiliate-dashboard .affiliate-products-table td {
+		border-bottom: 1px dotted #ddd;
+		display: block;
+		font-size: 13px;
+		text-align: right;
+	}
+
+	.emagicone-affiliate-dashboard .affiliate-products-table td:last-child {
+		border-bottom: 0;
+	}
+
+	.emagicone-affiliate-dashboard .affiliate-products-table td:before {
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.emagicone-affiliate-dashboard .affiliate-product-image,
+	.emagicone-affiliate-dashboard .affiliate-product-title,
+	.emagicone-affiliate-dashboard .affiliate-product-price,
+	.emagicone-affiliate-dashboard .affiliate-product-link {
+		text-align: left;
+	}
+}
+
+/* Additional styles */
+.loader {
+	animation: spin 2s linear infinite;
+	border: 2px solid #f3f3f3;
+	border-top: 2px solid #3498db;
+	border-radius: 50%;
+	display: inline-block;
+	height: 20px;
+	margin-left: 10px;
+	position: absolute;
+	width: 20px;
+}
+
+.error-wrapper {
+	padding: 15px 15px 0 0;
+}
+
+.error-wrapper a {
+	color: #dc3545 !important;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
